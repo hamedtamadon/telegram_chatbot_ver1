@@ -1,0 +1,30 @@
+[project]
+name = "generative-ai-mastery-full-course"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { email = "hamedtamadon@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.15.0",
+    "aiogram>=3.31.0",
+    "chromadb>=1.5.9",
+    "datasets>=5.1.0",
+    "google-genai>=2.31.0",
+    "langchain>=1.4.6",
+    "langchain-community>=0.4.2",
+    "langchain-openai>=1.7.2",
+    "python-dotenv>=1.2.4",
+    "sentence-transformers>=6.1.0",
+    "torch>=2.14.1",
+    "transformers>=5.20.0",
+]
+
+[project.scripts]
+generative-ai-mastery-full-course = "generative_ai_mastery_full_course:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
